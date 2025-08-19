@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Next Level You ✨</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background: linear-gradient(to right, #fbc2eb, #a6c1ee);
+      text-align: center;
+      color: #333;
+    }
+
+    header {
+      padding: 40px 20px 20px;
+    }
+
+    h1 {
+      font-size: 36px;
+      margin: 0;
+      color: #222;
+    }
+
+    p {
+      margin-top: 8px;
+      font-size: 16px;
+      color: #555;
+    }
+
+    .container {
+      max-width: 900px;
+      margin: 30px auto;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 20px;
+      padding: 0 10px;
+    }
+
+    .card {
+      border-radius: 15px;
+      padding: 20px;
+      box-shadow: 0 6px 18px rgba(0,0,0,0.2);
+      flex: 1 1 350px;
+      color: white;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+      min-height: 300px;
+    }
+
+    /* Quote card */
+    .quote-card {
+      background: url('https://images.unsplash.com/photo-1507525428034-b723cf961d3e') no-repeat center center;
+      background-size: cover;
+    }
+
+    .quote-text {
+      font-size: 22px;
+      font-weight: bold;
+      line-height: 1.6;
+      padding: 10px;
+      background: rgba(0,0,0,0.5);
+      border-radius: 10px;
+    }
+
+    /* Playlist card */
+    .playlist-card {
+      background: url('https://images.unsplash.com/photo-1504815588211-5950b94f80d4?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OHx8YWVzdGhldGljJTIwc3R1ZHl8ZW58MHx8MHx8fDA%3D') no-repeat center center;
+      background-size: cover;
+      flex-direction: column;
+      color: #222;
+    }
+
+    .playlist-card h2 {
+      margin-top: 0;
+      font-size: 20px;
+      text-transform: uppercase;
+      background: rgba(255,255,255,0.7);
+      padding: 8px 12px;
+      border-radius: 8px;
+    }
+
+    iframe {
+      width: 100%;
+      height: 352px;
+      border-radius: 12px;
+      border: none;
+    }
+
+    footer {
+      margin: 40px 0 20px;
+      font-size: 14px;
+      color: #555;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Next Level You ✨</h1>
+    <p>Soft focus • Strong energy • Small steps → Big wins</p>
+  </header>
+
+  <div class="container">
+    <div class="card quote-card">
+      <div class="quote-text">
+        "Don’t count the hours you study. <br>
+        Make the hours count."
+      </div>
+    </div>
+
+    <div class="card playlist-card">
+      <h2>My Playlist 🎧</h2>
+      <iframe src="https://open.spotify.com/embed/playlist/0mAkFu6zvkrwyKL186Zxp9?utm_source=generator"></iframe>
+    </div>
+  </div>
+
+  <footer>
+    Made with focus & positivity ✨
+<br>
+By Avishi Gupta
+  </footer>
+</body>
+</html>
